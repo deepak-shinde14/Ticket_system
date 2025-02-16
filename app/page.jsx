@@ -1,5 +1,6 @@
 import React from "react";
 import TicketCard from "./(components)/TicketCard";
+import Footer from "./(components)/Footer";
 
 const getTickets = async () => {
   try {
@@ -52,6 +53,7 @@ const Dashboard = async () => {
             </div>
           ))}
       </div>
+      <Footer/>
     </div>
   );
 };
